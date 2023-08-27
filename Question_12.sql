@@ -3,5 +3,5 @@ contain duplicates.
 Input Format */
 
 select distinct city from station
-where city like "a%" or city like "e%" or city like "i%"
-or city like "o%" or city like "u%";
+where city like "%a" or city like "%a" or city like "%i"
+or city like "%o" or city like "%u";
